@@ -14,7 +14,22 @@
   </head>
 
   <body class="container">
-    <header></header>
+    <header>
+      <ul class="nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Active</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+        </li>
+      </ul>
+    </header>
     <!--for seo, Im going to hardcode in the home page content - this makes sure the bots get it even if they get to the page before the js loads (or if js breaks)-->
     <!--added the id to main, this is the container Im going to render within.-->
     <main id="dom-renderer">
