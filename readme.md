@@ -1,3 +1,7 @@
+Project 1 Guidelines - Video notes:
+* 2 pages no AI, one page AI
+* At least one vanilla js feature - no jquery, manually manipulate dom.
+
 ## AI Disclosure
 
 Claude CLI using Sonnet 4.6, medium effort, was used as a tracking and organizational tool for the duration of this project. The prompt used can be found below:
