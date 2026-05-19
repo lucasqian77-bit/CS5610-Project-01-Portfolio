@@ -1,7 +1,7 @@
 # Project 1: Personal Home Page
 
 ## Personas
-* Eric, 32 year old Seattle technical recruiter
+* Eric, 32 year old Seattle technical recruiter for an employement agency. Eric will want easy access to my projects as well as my professional about/skills section
 
 ## User Stories
 *   
