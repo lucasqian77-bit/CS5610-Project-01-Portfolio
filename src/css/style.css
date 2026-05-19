@@ -1,0 +1,28 @@
+  :root {                                                                                                                                                                                                                    
+    --color-dark:      #252323;
+    --color-accent:    #70798c;
+    --color-bg:        #f5f1ed;                                                                                                                                                                                              
+    --color-surface:   #dad2bc;
+    --color-muted:     #a99985;                                                                                                                                                                                              
+  }               
+                                                                                                                                                                                                                             
+  body {
+    background-color: var(--color-bg);                                                                                                                                                                                       
+    color: var(--color-dark);
+  }
+
+   .nav-link {                                                                                                                                                                                                                
+    color: var(--color-accent);                                                                                                                                                                                              
+  }                                                                                                                                                                                                                          
+                  
+  .nav-link:hover {                                                                                                                                                                                                          
+    color: var(--color-dark);
+  }
+
+  .nav-link.active {
+    color: var(--color-dark);
+  }
+  
+  .nav-link:visited {                                                                                                                                                                                                        
+    color: var(--color-accent);                                                                                                                                                                                              
+  }  
