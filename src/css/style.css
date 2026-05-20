@@ -1,28 +1,61 @@
-  :root {                                                                                                                                                                                                                    
+:root {                                                                                                                                                                                                                    
     --color-dark:      #252323;
     --color-accent:    #70798c;
     --color-bg:        #f5f1ed;                                                                                                                                                                                              
     --color-surface:   #dad2bc;
     --color-muted:     #a99985;                                                                                                                                                                                              
-  }               
-                                                                                                                                                                                                                             
-  body {
+}               
+                                                                                                                                                                                                                            
+body {
     background-color: var(--color-bg);                                                                                                                                                                                       
     color: var(--color-dark);
-  }
+}
 
-   .nav-link {                                                                                                                                                                                                                
+.nav-link {                                                                                                                                                                                                                
     color: var(--color-accent);                                                                                                                                                                                              
-  }                                                                                                                                                                                                                          
-                  
-  .nav-link:hover {                                                                                                                                                                                                          
+}                                                                                                                                                                                                                          
+                
+.nav-link:hover {                                                                                                                                                                                                          
     color: var(--color-dark);
-  }
+}
 
-  .nav-link.active {
+.nav-link.active {
     color: var(--color-dark);
-  }
-  
-  .nav-link:visited {                                                                                                                                                                                                        
-    color: var(--color-accent);                                                                                                                                                                                              
-  }  
+}
+
+.nav-link:visited {
+    color: var(--color-accent);
+}
+
+.nav-link:visited:hover {
+    color: var(--color-dark);
+}
+
+.contact-hero-link {
+    color: var(--color-accent);
+    text-decoration: none;
+}
+
+.contact-hero-link:hover {
+    color: var(--color-dark);
+}
+
+.contact-hero-link:visited {
+    color: var(--color-accent);
+}
+
+.contact-hero-link:visited:hover {
+    color: var(--color-dark);
+}
+
+.hero-label {   
+    background-color: rgba(37, 35, 35, 0.55);
+    color: #f5f1ed;                                                                                                                                                                                                          
+    padding: 0.75rem 1.5rem;
+    border-radius: 4px;                                                                                                                                                                                                      
+}               
+                                                                                                                                                                                                                            
+.hero-label h1 {
+    color: #f5f1ed;
+    margin: 0;
+}

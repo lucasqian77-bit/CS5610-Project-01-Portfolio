@@ -4,7 +4,7 @@
 For project one I'm building a professional portfolio to showcase previous and upcoming projects to recuriters and potential freelance clients. The stack I'm using includes vanilla html, vanilla css, Bootstrap 5, and es6 modules.
 
 ## Personas
-* Eric, 32 year old Seattle technical recruiter for an employement agency. Eric will want easy access to my project summaries, my github, my linkedin, and my included professional about/skills section.
+* Eric, 32 year old Seattle technical recruiter for an employement agency in Seattle. Eric will want easy access to my project summaries, my github, my linkedin, and my included professional about/skills section.
 
 * Anna is a 38 year old software engineering manager at a mid sized tech company in Bellevue Washington. While Eric handles baseline qualifications, Anna evaluates technical depth and archictectual skill. She'll want easy access to the source code and the hosted copy of my projects. She intends to asses my code quality, problem solving skills, and documentation.
 
