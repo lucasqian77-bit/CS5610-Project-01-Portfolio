@@ -11,6 +11,9 @@ body {
     color: var(--color-dark);
 }
 
+header {                                                                                                                                                                                                                   
+    background-color: var(--color-bg);                                                                                                                                                                                     
+}  
 .nav-link {                                                                                                                                                                                                                
     color: var(--color-accent);                                                                                                                                                                                              
 }                                                                                                                                                                                                                          
@@ -58,4 +61,9 @@ body {
 .hero-label h1 {
     color: #f5f1ed;
     margin: 0;
+}
+
+.about img {
+    height:25%;
+    width: 25%;
 }
