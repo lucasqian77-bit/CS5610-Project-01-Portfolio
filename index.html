@@ -13,9 +13,9 @@
     <link rel="stylesheet" href="./src/css/style.css">
   </head>
 
-  <body class="container">
+  <body class="container" id="top">
     <header class="navbar navbar-expand-lg sticky-top">
-        <a class="nav-link" href="#">Parker McKillop</a>
+        <a class="nav-link" href="#top">Parker McKillop</a>
         <button class="navbar-toggler" type="button"
                 data-bs-toggle="collapse" data-bs-target="#main-nav"
                 aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
@@ -24,7 +24,7 @@
         <div class="collapse navbar-collapse" id="main-nav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              <a class="nav-link active" aria-current="page" href="#top">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="projects.html">Projects</a>
@@ -33,7 +33,7 @@
               <a class="nav-link" href="contact.html">Contact</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="../../media/ParkerMcKillopResumeMay2026.pdf" download>Resume</a>
+              <a class="nav-link" href="./media/ParkerMcKillopResumeMay2026.pdf" download>Resume</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="https://github.com/pem2k">Github</a>
@@ -54,7 +54,7 @@
         <div class="carousel-inner">
           <div class="carousel-item active">
               <div class="position-relative">
-                <img src="../../media/nathan-da-silva-k-rKfqSm4L4-unsplash.jpg" class="d-block w-100 rounded-5" alt="Website Hero Image - A macbook with an open IDE, surrounded by coffee, plants and candles">                                                                                                                                                                          
+                <img src="./media/nathan-da-silva-k-rKfqSm4L4-unsplash.jpg" class="d-block w-100 rounded-5" alt="Website Hero Image - A macbook with an open IDE, surrounded by coffee, plants and candles">                                                                                                                                                                          
                 <div class="position-absolute top-50 start-50 translate-middle text-center hero-label">
                   <h1>Web Dev by Parker McKillop</h1>                                                                                                                                                                            
               </div>
@@ -66,45 +66,47 @@
       <!--About Section Hardcoded, this will include skills, coursework, professional history, something to humanize me too maybe a hobby idk-->
       <section class="mt-3 container">
         <h2>About</h2>
-        <p>
+        <p class="justify">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent faucibus sapien nec augue vehicula maximus. Curabitur fermentum non  consectetur adipiscing elit. Praesent faucibus sapien nec augue vehicula maximus. sapien sit amet rhoncus. Aenean vulputate sed eros ut porta. Nulla eleifend ut eros sed aliquet. In sed nibh et tortor condimentum tincidunt ullamcorper sed libero. Quisque suscipit egestas neque, et convallis nulla mattis gravida. Duis arcu ligula, accumsan eget dui vitae, lobortis pellentesque felis. Aenean ac ipsum et felis pretium accumsan. Donec at blandit lectus. Nulla facilisi. Sed quis leo eget sapien hendrerit finibus tempus in ex. Curabitur at nibh enim. Proin risus ex, aliquam scelerisque rhoncus et, ultricies ut nisi. Mauris vitae lectus tempor mauris vehicula finibus. Curabitur vestibulum, nisi eget suscipit accumsan, purus mauris faucibus elit, a laoreet metus lectus eget mi. 
         </p>
         
                                                                                                                                                                                                                                   
         <div class="row about align-items-center">
-          
-            
-            
-        
+           <img src="./media/luke-and-parker-cropped.jpg" alt="Profile Picture" class="d-none d-xl-block rounded-5">
           <div class="col">                                                                                                                                                                                                                                           
             <h3 class="text-start">Professional History</h3>  
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent faucibus sapien nec augue vehicula maximus.  Curabitur fermentum non sapien sit amet rhoncus. Aenean vulputate sed eros ut porta. Nulla eleifend ut eros sed aliquet. In sed nibh et tortor condimentum tincidunt ullamcorper sed libero. Quisque suscipit egestas neque, et convallis nulla mattis gravida. Duis arcu ligula, accumsan eget dui vitae, lobortis pellentesque felis. Aenean ac ipsum et felis pretium accumsan. Donec at blandit lectus. Nulla facilisi. Sed quis leo eget sapien hendrerit finibus tempus in ex. Curabitur at nibh enim. Proin risus ex, aliquam scelerisque rhoncus et, ultricies ut nisi. Mauris vitae lectus tempor mauris vehicula finibus. Curabitur vestibulum, nisi eget suscipit accumsan, purus mauris faucibus elit, a laoreet metus lectus eget mi. </p>                                                                                                                                                                                                                                                     
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent faucibus sapien nec augue vehicula maximus. Curabitur fermentum non sapien sit amet rhoncus. Aenean vulputate sed eros ut porta. Nulla eleifend ut eros sed aliquet. In sed nibh et tortor condimentum tincidunt ullamcorper sed libero. Quisque suscipit egestas neque, et convallis nulla mattis gravida. Duis arcu ligula, accumsan eget dui vitae, lobortis pellentesque felis. Aenean ac ipsum et felis pretium accumsan. Donec at blandit lectus. Nulla facilisi. Sed quis leo eget sapien hendrerit finibus tempus in ex. Curabitur at nibh enim. Proin risus ex, aliquam scelerisque rhoncus et, ultricies ut nisi. Mauris vitae lectus tempor mauris vehicula finibus. Curabitur vestibulum, nisi eget suscipit accumsan, purus mauris faucibus elit, a laoreet metus lectus eget mi. </p>
-          
+            <div class="justify">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent faucibus sapien nec augue vehicula maximus.  Curabitur fermentum non sapien sit amet rhoncus. Aenean vulputate sed eros ut porta. Nulla eleifend ut eros sed aliquet. In sed nibh et tortor condimentum tincidunt ullamcorper sed libero. Quisque suscipit egestas neque, et convallis nulla mattis gravida. Duis arcu ligula, accumsan eget dui vitae, lobortis pellentesque felis. Aenean ac ipsum et felis pretium accumsan. Donec at blandit lectus. Nulla facilisi. Sed quis leo eget sapien hendrerit finibus tempus in ex. Curabitur at nibh enim. Proin risus ex, aliquam scelerisque rhoncus et, ultricies ut nisi. Mauris vitae lectus tempor mauris vehicula finibus. Curabitur vestibulum, nisi eget suscipit accumsan, purus mauris faucibus elit, a laoreet metus lectus eget mi. </p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent faucibus sapien nec augue vehicula maximus. Curabitur fermentum non sapien sit amet rhoncus. Aenean vulputate sed eros ut porta. Nulla eleifend ut eros sed aliquet. In sed nibh et tortor condimentum tincidunt ullamcorper sed libero. Quisque suscipit egestas neque, et convallis nulla mattis gravida. Duis arcu ligula, accumsan eget dui vitae, lobortis pellentesque felis. Aenean ac ipsum et felis pretium accumsan. Donec at blandit lectus. Nulla facilisi. Sed quis leo eget sapien hendrerit finibus tempus in ex. Curabitur at nibh enim. Proin risus ex, aliquam scelerisque rhoncus et, ultricies ut nisi. Mauris vitae lectus tempor mauris vehicula finibus. Curabitur vestibulum, nisi eget suscipit accumsan, purus mauris faucibus elit, a laoreet metus lectus eget mi. </p>
+            </div>
           </div>                                                                                                                                                                                                                                                           
-          <img src="./media/luke-and-parker-cropped.jpg" alt="Profile Picture" class="d-none d-xl-block rounded-5">
+         
         </div>
 
-        
         <div class="row about align-items-center">
-          <img src="./media/genesis-cropped.jpg" alt="Profile Picture" class="d-none d-xl-block rounded-5">
-          <div class="col">                                                                                                                                                                                                                                           
-            <h3 class="text-end">Skills</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent faucibus sapien nec augue vehicula maximus.  Curabitur fermentum non sapien sit amet rhoncus. Aenean vulputate sed eros ut porta. Nulla eleifend ut eros sed aliquet. In sed nibh et tortor condimentum tincidunt ullamcorper sed libero. Quisque suscipit egestas neque, et convallis nulla mattis gravida. Duis arcu ligula, accumsan eget dui vitae, lobortis pellentesque felis. Aenean ac ipsum et felis pretium accumsan. Donec at blandit lectus. Nulla facilisi. Sed quis leo eget sapien hendrerit finibus tempus in ex. Curabitur at nibh enim. Proin risus ex, aliquam scelerisque rhoncus et, ultricies ut nisi. Mauris vitae lectus tempor mauris vehicula finibus. Curabitur vestibulum, nisi eget suscipit accumsan, purus mauris faucibus elit, a laoreet metus lectus eget mi. </p>                                                                                                                                                                                                                                                     
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent faucibus sapien nec augue vehicula maximus. Curabitur fermentum non sapien sit amet rhoncus. Aenean vulputate sed eros ut porta. Nulla eleifend ut eros sed aliquet. In sed nibh et tortor condimentum tincidunt ullamcorper sed libero. Quisque suscipit egestas neque, et convallis nulla mattis gravida. Duis arcu ligula, accumsan eget dui vitae, lobortis pellentesque felis. Aenean ac ipsum et felis pretium accumsan. Donec at blandit lectus. Nulla facilisi. Sed quis leo eget sapien hendrerit finibus tempus in ex. Curabitur at nibh enim. Proin risus ex, aliquam scelerisque rhoncus et, ultricies ut nisi. Mauris vitae lectus tempor mauris vehicula finibus. Curabitur vestibulum, nisi eget suscipit accumsan, purus mauris faucibus elit, a laoreet metus lectus eget mi. </p>
-          </div>                                                                                                                                                                                                                                                           
           
+          <div class="col">                                                                                                                                                                                                                                           
+            <h3 class="text-start">Skills</h3>
+            <div class="justify">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent faucibus sapien nec augue vehicula maximus.  Curabitur fermentum non sapien sit amet rhoncus. Aenean vulputate sed eros ut porta. Nulla eleifend ut eros sed aliquet. In sed nibh et tortor condimentum tincidunt ullamcorper sed libero. Quisque suscipit egestas neque, et convallis nulla mattis gravida. Duis arcu ligula, accumsan eget dui vitae, lobortis pellentesque felis. Aenean ac ipsum et felis pretium accumsan. Donec at blandit lectus. Nulla facilisi. Sed quis leo eget sapien hendrerit finibus tempus in ex. Curabitur at nibh enim. Proin risus ex, aliquam scelerisque rhoncus et, ultricies ut nisi. Mauris vitae lectus tempor mauris vehicula finibus. Curabitur vestibulum, nisi eget suscipit accumsan, purus mauris faucibus elit, a laoreet metus lectus eget mi. </p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent faucibus sapien nec augue vehicula maximus. Curabitur fermentum non sapien sit amet rhoncus. Aenean vulputate sed eros ut porta. Nulla eleifend ut eros sed aliquet. In sed nibh et tortor condimentum tincidunt ullamcorper sed libero. Quisque suscipit egestas neque, et convallis nulla mattis gravida. Duis arcu ligula, accumsan eget dui vitae, lobortis pellentesque felis. Aenean ac ipsum et felis pretium accumsan. Donec at blandit lectus. Nulla facilisi. Sed quis leo eget sapien hendrerit finibus tempus in ex. Curabitur at nibh enim. Proin risus ex, aliquam scelerisque rhoncus et, ultricies ut nisi. Mauris vitae lectus tempor mauris vehicula finibus. Curabitur vestibulum, nisi eget suscipit accumsan, purus mauris faucibus elit, a laoreet metus lectus eget mi. </p>
+            </div>
+            
+          </div>                                                                                                                                                                                                                                                           
+          <img src="./media/genesis-cropped.jpg" alt="Profile Picture" class="d-none d-xl-block rounded-5">
         </div>
         
         
         <div class="row about align-items-center">
-          
+          <img src="./media/macools-cropped.png" alt="Profile Picture" class="d-none d-xl-block rounded-5"> 
           <div class="col">   
             <h3>Personal Life</h3>                                                                                                                                                                                                                                        
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent faucibus sapien nec augue vehicula maximus.  Curabitur fermentum non sapien sit amet rhoncus. Aenean vulputate sed eros ut porta. Nulla eleifend ut eros sed aliquet. In sed nibh et tortor condimentum tincidunt ullamcorper sed libero. Quisque suscipit egestas neque, et convallis nulla mattis gravida. Duis arcu ligula, accumsan eget dui vitae, lobortis pellentesque felis. Aenean ac ipsum et felis pretium accumsan. Donec at blandit lectus. Nulla facilisi. Sed quis leo eget sapien hendrerit finibus tempus in ex. Curabitur at nibh enim. Proin risus ex, aliquam scelerisque rhoncus et, ultricies ut nisi. Mauris vitae lectus tempor mauris vehicula finibus. Curabitur vestibulum, nisi eget suscipit accumsan, purus mauris faucibus elit, a laoreet metus lectus eget mi. </p>                                                                                                                                                                                                                                                     
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent faucibus sapien nec augue vehicula maximus. Curabitur fermentum non sapien sit amet rhoncus. Aenean vulputate sed eros ut porta. Nulla eleifend ut eros sed aliquet. In sed nibh et tortor condimentum tincidunt ullamcorper sed libero. Quisque suscipit egestas neque, et convallis nulla mattis gravida. Duis arcu ligula, accumsan eget dui vitae, lobortis pellentesque felis. Aenean ac ipsum et felis pretium accumsan. Donec at blandit lectus. Nulla facilisi. Sed quis leo eget sapien hendrerit finibus tempus in ex. Curabitur at nibh enim. Proin risus ex, aliquam scelerisque rhoncus et, ultricies ut nisi. Mauris vitae lectus tempor mauris vehicula finibus. Curabitur vestibulum, nisi eget suscipit accumsan, purus mauris faucibus elit, a laoreet metus lectus eget mi. </p>
+            <div class="justify">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent faucibus sapien nec augue vehicula maximus.  Curabitur fermentum non sapien sit amet rhoncus. Aenean vulputate sed eros ut porta. Nulla eleifend ut eros sed aliquet. In sed nibh et tortor condimentum tincidunt ullamcorper sed libero. Quisque suscipit egestas neque, et convallis nulla mattis gravida. Duis arcu ligula, accumsan eget dui vitae, lobortis pellentesque felis. Aenean ac ipsum et felis pretium accumsan. Donec at blandit lectus. Nulla facilisi. Sed quis leo eget sapien hendrerit finibus tempus in ex. Curabitur at nibh enim. Proin risus ex, aliquam scelerisque rhoncus et, ultricies ut nisi. Mauris vitae lectus tempor mauris vehicula finibus. Curabitur vestibulum, nisi eget suscipit accumsan, purus mauris faucibus elit, a laoreet metus lectus eget mi. </p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent faucibus sapien nec augue vehicula maximus. Curabitur fermentum non sapien sit amet rhoncus. Aenean vulputate sed eros ut porta. Nulla eleifend ut eros sed aliquet. In sed nibh et tortor condimentum tincidunt ullamcorper sed libero. Quisque suscipit egestas neque, et convallis nulla mattis gravida. Duis arcu ligula, accumsan eget dui vitae, lobortis pellentesque felis. Aenean ac ipsum et felis pretium accumsan. Donec at blandit lectus. Nulla facilisi. Sed quis leo eget sapien hendrerit finibus tempus in ex. Curabitur at nibh enim. Proin risus ex, aliquam scelerisque rhoncus et, ultricies ut nisi. Mauris vitae lectus tempor mauris vehicula finibus. Curabitur vestibulum, nisi eget suscipit accumsan, purus mauris faucibus elit, a laoreet metus lectus eget mi. </p>
+            </div>
           </div> 
-          <img src="./media/macools-cropped.png" alt="Profile Picture" class="d-none d-xl-block rounded-5">                                                                                                                                                                                                                                                          
+                                                                                                                                                                                                                                                                   
         </div>
       </section>
     </main>
