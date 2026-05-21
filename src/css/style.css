@@ -35,20 +35,24 @@ header {
 }
 
 .contact-hero-link {
-    color: var(--color-accent);
+    color: var(--color-bg);
     text-decoration: none;
 }
 
 .contact-hero-link:hover {
-    color: var(--color-dark);
+    color: var(--color-surface);
 }
 
 .contact-hero-link:visited {
-    color: var(--color-accent);
+    color: var(--color-bg);
 }
 
 .contact-hero-link:visited:hover {
-    color: var(--color-dark);
+    color: var(--color-surface);
+}
+
+#contact-hero-subtitle {
+    color: var(--color-surface);
 }
 
 .hero-label {   
