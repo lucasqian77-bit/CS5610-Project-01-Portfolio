@@ -14,6 +14,10 @@ Something creative portion - maybe add a few dropdowns
 
 deploy
 
+update icon for tab
+
+run through an seo grader for the heck of it, see how this can improve - concerned about indexing of client side rendered content.
+
 es6 module
 
 add comments to css
