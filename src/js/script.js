@@ -1,20 +1,25 @@
 // remember to turn this into a module.
 let projectImport;
 // define a card component to hold project info
-const exampleHTML = "<div>test render</div>";
+function buildProjectCard(name, description, github, live) {
+  //check if live exists - if it's not hosted don't render it - replace with a download zip link
+  //all other items are guranteed to exist
+  return ``;
+}
+
 // grab projects.json
-//developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch
+// developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch
 async function getProjects() {
   const projectsPath = "./src/js/projects.json";
   try {
 
-    const response = await  fetch(projectsPath);
+    const response = await fetch(projectsPath);
 
     if (!response.ok) {
       throw new Error(`Project File not found: ${response.status}`);
     }
     projectImport = await response.json();
-    console.log(projectImport);
+    //console.log(projectImport);
   } catch {
     console.log("catch placeholder");
   }
@@ -35,6 +40,12 @@ async function getProjects() {
 
 async function main() {
   await getProjects();
+  for(values in projectImport.values()) {
+    
+    }
+  
+
+
   console.log(`projectImport in main: ${projectImport}`);
 }
 main();

@@ -3,11 +3,11 @@
     "name": "Resonance",                                                                                                                                                                                                                                           
     "description": "WWA Melee crew league dashboard. Tracks SPR-based tournament points across 8 teams, syncs live results from start.gg, and features a full admin panel for season management.",                                                                 
     "github": "https://github.com/pem2k/Resonance-App",                                                                                                                                                                                                            
-    "live": ""                                                                                                                                                                                                                            
+    "live": "In Process"                                                                                                                                                                                                                            
 },                                                                                                                                                                                                                                                               
 {                                                                                                                                                                                                                                                                
     "name": "pem2k messenger",
-    "description": "Add a short description here.",
+    "description": "Full-stack real-time messaging app built with Flask and React. Features WebSocket-powered live chat, session-based auth, SQLAlchemy persistence, and Pydantic validation, with 52 unit tests and full-stack deployment across Heroku and Netlify.",
     "github": "https://github.com/pem2k/pem2k-messenger",                                                                                                                                                                                                             
     "live": "https://pem2k-messenger.netlify.app/"
 },                                                                                                                                                                                                                                                               
