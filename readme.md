@@ -8,9 +8,17 @@
 
 A personal portfolio and professional homepage built to showcase projects, skills, and background as a web developer and CS student. Project cards are dynamically rendered from a JSON data file using a vanilla ES6 JavaScript module — no frameworks, no jQuery.
 
+## Design Documents
+[Design/designdocument.md](Design/designdocument.md)
+
 ## Screenshot
 
-![Homepage screenshot](./Design/design%20screenshots/p01-initial-mockup.png)
+![Homepage screenshot](./media/readme/homepage.png)
+![Projects Screenshot](./media/readme/projectpage.png)
+![Contact Screenshot](./media/readme/contactpage.png)
+
+## Video Overview:
+https://youtu.be/VucYKUd6hzs
 
 ## Pages
 
