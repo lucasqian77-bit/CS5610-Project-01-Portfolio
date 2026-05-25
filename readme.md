@@ -1,7 +1,9 @@
 # Parker McKillop — Personal Portfolio
 
 **Author:** Parker McKillop
+
 **Class:** [CS 5610 Web Development](https://johnguerra.co/classes/webDevelopment_online_summer_2026/)
+
 **Live Site:** [parkermckillop.netlify.app](https://parkermckillop.netlify.app)
 
 ## Objective
