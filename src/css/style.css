@@ -4,8 +4,15 @@
     --color-bg:        #f5f1ed;                                                                                                                                                                                              
     --color-surface:   #dad2bc;
     --color-muted:     #a99985;                                                                                                                                                                                              
-}               
-                                                                                                                                                                                                                            
+}
+
+/*https://getbootstrap.com/docs/5.2/components/buttons/#variables*/
+.btn-primary {
+    --bs-btn-bg: var(--color-accent);
+    --bs-btn-border-color: var(var(--color-accent));
+    
+}
+
 body {
     background-color: var(--color-bg);                                                                                                                                                                                       
     color: var(--color-dark);
