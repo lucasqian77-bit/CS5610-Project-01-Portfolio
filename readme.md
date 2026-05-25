@@ -1,36 +1,42 @@
-Project 1 Guidelines - Video notes:
-* 2 pages no AI, one page AI
-* At least one vanilla js feature - no jquery, manually manipulate dom.
+# Parker McKillop — Personal Portfolio
 
-## AI Disclosure
+**Author:** Parker McKillop
+**Class:** [CS 5610 Web Development](https://johnguerra.co/classes/webDevelopment_online_summer_2026/)
+**Live Site:** [parkermckillop.netlify.app](https://parkermckillop.netlify.app)
 
-Claude CLI using Sonnet 4.6, medium effort, was used as a tracking and organizational tool for the duration of this project. The prompt used can be found below:
+## Objective
 
-**Prompt:** Based on this rubric - I'd like a list of actionables for completion in order for me to continuously reference in the terminal. _(Pasted rubric HTML into Claude terminal)_
+A personal portfolio and professional homepage built to showcase projects, skills, and background as a web developer and CS student. Project cards are dynamically rendered from a JSON data file using a vanilla ES6 JavaScript module — no frameworks, no jQuery.
 
-### Phase 1 — Foundation
+## Screenshot
 
-1. Design document — 80 pts. Personas, user stories, mockups, project description. Biggest item by far.
-2. Package.json + project structure — `"type":"module"`, MIT license, folder layout (`src/html/`, `src/css/`, `src/js/`, `src/images/`)
-3. ESLint + Prettier setup — get the class config file, wire up both tools before writing much code
+![Homepage screenshot](./Design/design%20screenshots/p01-initial-mockup.png)
 
-### Phase 2 — Build the site
+## Pages
 
-4. `index.html` — real content, meta author/description/icon, semantic tags, CSS classes, all images with `alt`
-5. 2+ more HTML pages + 1 AI-generated page — link them in a nav
-6. CSS — flexbox or Bootstrap 5 grid, no `!important`
-7. ES6 JS module — `<script type="module">`, 5+ lines of original code
-8. Creative differentiating component — something unique
+- **index.html** — Homepage with about section and skills
+- **projects.html** — Dynamically rendered project cards from `src/js/projects.json`
+- **contact.html** — Contact form with Formspree integration *(AI-generated page)*
 
-### Phase 3 — Quality checks
+## How to Run Locally
 
-9. Run Prettier on everything
-10. Fix all ESLint errors
-11. Validate every page at W3C validator
+This is a static site — no build step required.
 
-### Phase 4 — Polish & submit
+```bash
+git clone https://github.com/pem2k/CS5610-Project-01-Portfolio.git
+cd CS5610-Project-01-Portfolio
+npx serve .
+```
 
-12. `README.md` — author, class link, objective, screenshot, build instructions, GenAI section
-13. Deploy to public URL (GitHub Pages/Netlify/Vercel)
-14. Record narrated video — 15 pts
-15. Google Form submission + peer code review — 25 pts combined
+Then open `http://localhost:3000` in your browser.
+
+
+## GenAI Disclosure
+
+Claude CLI (Sonnet 4.6) was used in the following ways during this project:
+
+- **Organizational tool** — generated a prioritized task list from the rubric at the start of the project
+- **Syntax reference** — used as a general JavaScript/HTML/CSS reference throughout development
+- **Contact page layout** — the initial layout and form submission logic for `contact.html` was AI-generated, then reviewed and integrated manually
+- **Logistics** — assisted with removing an accidentally committed `node_modules` folder from git history
+- **Readme** — used to generate readme.md as a full stack engineer with specific rubric guided instructions and user information.

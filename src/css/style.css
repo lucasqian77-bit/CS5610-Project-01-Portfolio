@@ -1,94 +1,94 @@
-:root {                                                                                                                                                                                                                    
-    --color-dark:      #252323;
-    --color-accent:    #70798c;
-    --color-bg:        #f5f1ed;                                                                                                                                                                                              
-    --color-surface:   #dad2bc;
-    --color-muted:     #a99985;                                                                                                                                                                                              
+:root {
+  --color-dark: #252323;
+  --color-accent: #70798c;
+  --color-bg: #f5f1ed;
+  --color-surface: #dad2bc;
+  --color-muted: #a99985;
 }
 
 /*https://getbootstrap.com/docs/5.2/components/buttons/#variables*/
 .btn-primary {
-    --bs-btn-bg: var(--color-accent);
-    --bs-btn-border-color: var(--color-accent);
-    --bs-btn-hover-bg: var(--color-dark);
-    --bs-btn-hover-border-color: var(--color-dark);
-    --bs-btn-active-bg: var(--color-dark);
-    --bs-btn-color: var(--color-bg);
-    --bs-btn-hover-color: var(--color-bg);
+  --bs-btn-bg: var(--color-accent);
+  --bs-btn-border-color: var(--color-accent);
+  --bs-btn-hover-bg: var(--color-dark);
+  --bs-btn-hover-border-color: var(--color-dark);
+  --bs-btn-active-bg: var(--color-dark);
+  --bs-btn-color: var(--color-bg);
+  --bs-btn-hover-color: var(--color-bg);
 }
 
 body {
-    background-color: var(--color-bg);                                                                                                                                                                                       
-    color: var(--color-dark);
-    overflow-y: scroll; /*this stops the shifiting of the page when the
+  background-color: var(--color-bg);
+  color: var(--color-dark);
+  overflow-y: scroll; /*this stops the shifiting of the page when the
     scollbar disappears on shorter pages*/
 }
 
-header {                                                                                                                                                                                                                   
-    background-color: var(--color-bg);                                                                                                                                                                                     
-}  
-.nav-link {                                                                                                                                                                                                                
-    color: var(--color-accent);                                                                                                                                                                                              
-}                                                                                                                                                                                                                          
-                
-.nav-link:hover {                                                                                                                                                                                                          
-    color: var(--color-dark);
+header {
+  background-color: var(--color-bg);
+}
+.nav-link {
+  color: var(--color-accent);
+}
+
+.nav-link:hover {
+  color: var(--color-dark);
 }
 
 .nav-link.active {
-    color: var(--color-dark);
+  color: var(--color-dark);
 }
 
 .nav-link:visited {
-    color: var(--color-accent);
+  color: var(--color-accent);
 }
 
 .nav-link:visited:hover {
-    color: var(--color-dark);
+  color: var(--color-dark);
 }
 
 .contact-hero-link {
-    color: var(--color-bg);
-    text-decoration: none;
+  color: var(--color-bg);
+  text-decoration: none;
 }
 
 .contact-hero-link:hover {
-    color: var(--color-surface);
+  color: var(--color-surface);
 }
 
 .contact-hero-link:visited {
-    color: var(--color-bg);
+  color: var(--color-bg);
 }
 
 .contact-hero-link:visited:hover {
-    color: var(--color-surface);
+  color: var(--color-surface);
 }
 
 #contact-hero-subtitle {
-    color: var(--color-surface);
+  color: var(--color-surface);
 }
 
-.hero-label {   
-    background-color: rgba(37, 35, 35, 0.55);
-    color: #f5f1ed;                                                                                                                                                                                                          
-    padding: 0.75rem 1.5rem;
-    border-radius: 4px;                                                                                                                                                                                                      
-}               
-                                                                                                                                                                                                                            
+.hero-label {
+  background-color: rgba(37, 35, 35, 0.55);
+  color: #f5f1ed;
+  padding: 0.75rem 1.5rem;
+  border-radius: 4px;
+}
+
 .hero-label h1 {
-    color: #f5f1ed;
-    margin: 0;
+  color: #f5f1ed;
+  margin: 0;
 }
 
 .about img {
-    height:25%;
-    width: 25%;
+  height: 25%;
+  width: 25%;
 }
 
 .about p {
-    font-size:1.2rem;
+  font-size: 1.2rem;
 }
 
 .justify {
-    text-align: justify;
+  text-align: justify;
 }

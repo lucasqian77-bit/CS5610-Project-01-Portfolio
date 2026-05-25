@@ -5,7 +5,7 @@ export function buildProjectCard(name, description, github, live) {
   //all other items are guranteed to exist
   let liveSiteOrDownload;
   if (live) {
-    liveSiteOrDownload = `<a href="${live}" target="_blank" class="btn btn-primary">Live Project</a>`
+    liveSiteOrDownload = `<a href="${live}" target="_blank" class="btn btn-primary">Live Project</a>`;
   } else {
     liveSiteOrDownload = `<a href="${github}/archive/refs/heads/main.zip" class="btn btn-primary" download>Download ZIP</a>`;
   }
@@ -19,7 +19,6 @@ export function buildProjectCard(name, description, github, live) {
             </div>
             </div>
           </div>`;
-
 }
 
 // grab projects.json
@@ -33,11 +32,10 @@ export async function getProjects() {
     }
     const projectImport = await response.json();
     //console.log(projectImport);
-    return projectImport
+    return projectImport;
   } catch {
     console.log("catch placeholder");
   }
- 
 }
 
 //do all the concat logic here
@@ -53,16 +51,16 @@ export async function getProjects() {
 
 export async function main() {
   const projectsParsed = await getProjects();
-  let allProjectHTML = ""
-  for(const project of projectsParsed) {
+  let allProjectHTML = "";
+  for (const project of projectsParsed) {
     allProjectHTML += buildProjectCard(
       project.name,
       project.description,
       project.github,
-      project.live
-    )
+      project.live,
+    );
   }
-  const targetContainer = document.getElementById("project-cards")
+  const targetContainer = document.getElementById("project-cards");
   targetContainer.innerHTML = allProjectHTML;
 }
 main();
