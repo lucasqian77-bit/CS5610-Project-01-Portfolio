@@ -9,13 +9,19 @@
 /*https://getbootstrap.com/docs/5.2/components/buttons/#variables*/
 .btn-primary {
     --bs-btn-bg: var(--color-accent);
-    --bs-btn-border-color: var(var(--color-accent));
-    
+    --bs-btn-border-color: var(--color-accent);
+    --bs-btn-hover-bg: var(--color-dark);
+    --bs-btn-hover-border-color: var(--color-dark);
+    --bs-btn-active-bg: var(--color-dark);
+    --bs-btn-color: var(--color-bg);
+    --bs-btn-hover-color: var(--color-bg);
 }
 
 body {
     background-color: var(--color-bg);                                                                                                                                                                                       
     color: var(--color-dark);
+    overflow-y: scroll; /*this stops the shifiting of the page when the
+    scollbar disappears on shorter pages*/
 }
 
 header {                                                                                                                                                                                                                   
@@ -77,6 +83,10 @@ header {
 .about img {
     height:25%;
     width: 25%;
+}
+
+.about p {
+    font-size:1.2rem;
 }
 
 .justify {

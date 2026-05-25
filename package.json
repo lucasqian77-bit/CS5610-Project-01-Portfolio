@@ -1,0 +1,19 @@
+{
+  "name": "04-project-01-personal-homepage",
+  "version": "1.0.0",
+  "description": "Project 1 Guidelines - Video notes: * 2 pages no AI, one page AI * At least one vanilla js feature - no jquery, manually manipulate dom.",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Parker McKillop",
+  "license": "MIT",
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.4.0",
+    "eslint-plugin-prettier": "^5.5.5",
+    "globals": "^17.6.0",
+    "prettier": "^3.8.3"
+  }
+}
