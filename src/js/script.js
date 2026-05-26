@@ -33,8 +33,8 @@ export async function getProjects() {
     const projectImport = await response.json();
     //console.log(projectImport);
     return projectImport;
-  } catch {
-    console.log("catch placeholder");
+  } catch (error) {
+    console.error(`Error getting projects:${error}`);
   }
 }
 
