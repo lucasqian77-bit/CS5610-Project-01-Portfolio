@@ -19,12 +19,12 @@ update icon for tab x
 es6 module x
 
 
-write readme/build instructions
+write readme/build instructions X
 
 full test pass, verify all links. x
 
-record video
+record video X
 
-code review
+code review X
 
-update ai disclosure
+update ai disclosure X
